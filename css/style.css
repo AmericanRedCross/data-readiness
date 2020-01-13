@@ -4732,7 +4732,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #F5F5F5;
+  background: #F5F5F%;
 }
 
 /* line 7, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
@@ -5008,7 +5008,11 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 4, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_bradcam.scss */
 .bradcam_bg_2 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/banner/missing-maps.jpg);
+}
+
+.bradcam_bg_3 {
+  background-image: url(../img/banner/indonesia-eq-mm-1.jpg);
 }
 
 /* line 7, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_bradcam.scss */
@@ -5429,6 +5433,12 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   position: relative;
 }
 
+.service_area .single_service .thumb_2 {
+  overflow: hidden;
+  position: relative;
+  width:50%
+}
+
 /* line 12, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service.scss */
 .service_area .single_service .thumb::before {
   width: 100%;
@@ -5755,6 +5765,67 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .contact-info .media-body p {
   color: #8a8a8a;
 }
+
+
+/* new styles from old site*/
+
+.service {
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-top: 2px solid #bd1220;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  position: relative;
+  top: 0; }
+
+  .service_2 {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: 2px solid #9F9FA3;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    position: relative;
+    top: 0; }
+
+    .service_2:hover, .service_2:focus {
+      -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+      border: 1px solid transparent;
+      border-top: 2px solid #9F9FA3;
+      top: -2px; }
+
+  .service:hover, .service:focus {
+    -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    border: 1px solid transparent;
+    border-top: 2px solid #bd1220;
+    top: -2px; }
+  .service *:last-child {
+    margin-bottom: 0; }
+  .service h3 {
+    font-size: 1rem;
+    color: #000; }
+  .service p {
+    color: #999999;
+    font-size: .85rem; }
+
+    .readmore {
+      position: relative;
+      padding-right: 20px;
+      text-transform: uppercase;
+      font-size: .75rem;
+      letter-spacing: .1rem;
+      font-weight: 900;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+
+
+    /*     end copied styles    */
 
 /*=================== contact banner end ====================*/
 /*=================== contact form start ====================*/
