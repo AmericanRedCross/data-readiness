@@ -184,7 +184,7 @@ a {
 }
 
 a:hover {
-    color: #0056b3;
+    color: #ED1B2E;
     text-decoration: underline
 }
 
@@ -515,6 +515,12 @@ mark {
     height: auto
 }
 
+.img-fluid-circle {
+    max-width: 100%;
+    height: auto;
+    border-radius:50%
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
@@ -523,6 +529,8 @@ mark {
     max-width: 100%;
     height: auto
 }
+
+
 
 .figure {
     display: inline-block
