@@ -1,2 +1,2 @@
 # data-readiness
- Alpha 1.0 website for data readiness toolkit.
+ Data readiness toolkit migrated to preparcenter.org. Keeping page to redirect to https://www.preparecenter.org/toolkit/data-readiness-toolkit/
